@@ -4,12 +4,6 @@ A countdown webpage. styled as banners with holiday backgrounds + countdown
 
 <h2 align="center">Holidays</h2>
 
-
-<style>
-table{
-    width:100%;
-}
-</style>
 <table>
 <thead>
 <h4 align="center">2020</h4>
