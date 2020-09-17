@@ -1,0 +1,83 @@
+[
+    {
+        "name": "kerst",
+        "day": 25,
+        "month": 12,
+        "year": 2020,
+        "duration": 2,
+        "defaultBG": "aqua",
+        "image": ""
+    },
+    {
+        "name": "Nieuwjaarsdag",
+        "day": 1,
+        "month": 1,
+        "year": 2021,
+        "duration": 1,
+        "defaultBG": "red",
+        "image": ""
+    },
+    {
+        "name": "Goede vrijdag",
+        "day": 2,
+        "month": 4,
+        "year": 2021,
+        "duration": 1,
+        "defaultBG": "green",
+        "image": ""
+    },
+    {
+        "name": "Pasen",
+        "day": 4,
+        "month": 4,
+        "year": 2021,
+        "duration": 2,
+        "defaultBG": "",
+        "image": ""
+    },
+    {
+        "name": "Koningsdag",
+        "day": 27,
+        "month": 4,
+        "year": 2021,
+        "duration": 1,
+        "defaultBG": "",
+        "image": ""
+    },
+    {
+        "name": "Bevrijdingsdag",
+        "day": 5,
+        "month": 5,
+        "year": 2021,
+        "duration": 1,
+        "defaultBG": "",
+        "image": ""
+    },
+    {
+        "name": "Hemelvaartsdag",
+        "day": 13,
+        "month": 5,
+        "year": 2021,
+        "duration": 1,
+        "defaultBG": "",
+        "image": ""
+    },
+    {
+        "name": "Pinksteren",
+        "day": 23,
+        "month": 5,
+        "year": 2021,
+        "duration": 2,
+        "defaultBG": "",
+        "image": ""
+    },
+    {
+        "name": "kerst",
+        "day": 25,
+        "month": 12,
+        "year": 2021,
+        "duration": 2,
+        "defaultBG": "",
+        "image": ""
+    }
+]
