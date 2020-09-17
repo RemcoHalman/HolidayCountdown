@@ -19,3 +19,9 @@ A countdown webpage. styled as banners with holiday backgrounds + countdown
 | Hemelvaartsdag                     | 13 mei      | 1    |
 | Pinksteren                         | 23 mei      | 2    |
 | Kerstmis                           | 25 december | 2    |
+
+______________
+
+## Screenshot of initial project (no styling yet)
+
+<img src="https://user-images.githubusercontent.com/25010775/93480829-2edf7700-f8fe-11ea-802f-7efe093cb969.jpg" alt="initial setup">
