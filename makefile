@@ -59,20 +59,3 @@ stats:
 
 stop: ## Stop and remove a running container
 	docker stop $$(docker ps -q --filter ancestor=$(PREFIX)/$(APP_NAME):$(VERSION) --format="{{.ID}}" )
-
-
-# ================================================================== *
-# 						Project specific tasks						 *
-# ================================================================== *
-
-### Compiles and hot-reloads for development
-serve:
-	npm run serve
-
-### Compiles and minifies for production
-build_vue:
-	npm run build
-
-### Lints and fixes files
-fix_vue:
-	npm run lint
