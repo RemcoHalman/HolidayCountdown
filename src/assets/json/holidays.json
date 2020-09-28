@@ -5,8 +5,8 @@
         "month": 12,
         "year": 2020,
         "duration": 2,
-        "defaultBG": "aqua",
-        "image": "https://f.jwwb.nl/public/5/a/7/angie-feestdagen/CAJSCRFRDESCADEAUXPARMILLIERSPOURNOEL1.png"
+        "defaultBG": "",
+        "image": ""
     },
     {
         "name": "Oudjaarsdag",
@@ -14,7 +14,7 @@
         "month": 12,
         "year": 2020,
         "duration": 1,
-        "defaultBG": "#f90",
+        "defaultBG": "",
         "image": "https://www.pngkit.com/png/full/17-176596_fireworks-pyrotechnics-celebration-fireworks-png.png"
     },
     {
@@ -23,7 +23,7 @@
         "month": 1,
         "year": 2021,
         "duration": 1,
-        "defaultBG": "red",
+        "defaultBG": "",
         "image": "https://www.pngkit.com/png/full/17-176596_fireworks-pyrotechnics-celebration-fireworks-png.png"
     },
     {
@@ -32,7 +32,7 @@
         "month": 4,
         "year": 2021,
         "duration": 1,
-        "defaultBG": "green",
+        "defaultBG": "",
         "image": ""
     },
     {
