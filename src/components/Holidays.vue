@@ -4,17 +4,18 @@
             id="holiday"
             v-bind:style="{
                 backgroundColor: holiday.defaultBG,
+                backgroundImage: 'url(' + holiday.image + ')',
             }"
         >
             <div>
-                <h1>{{ holiday.name }}</h1>
-                <p id="time">
-                    Datum: {{ holiday.day }}-{{ holiday.month }}-{{
-                        holiday.year
-                    }}
-                </p>
-                <p>
-                    Time until:
+                <h1 class="holiday_name">
+                    {{ holiday.name }}
+                    <small>
+                        {{ holiday.day }}-{{ holiday.month }}-{{ holiday.year }}
+                    </small>
+                </h1>
+
+                <p class="time">
                     {{ ticker(holiday.year, holiday.month, holiday.day) }}
                     {{ time }}
                 </p>
