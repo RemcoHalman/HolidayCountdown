@@ -16,6 +16,7 @@
                 <p>
                     Time until:
                     {{ ticker(holiday.year, holiday.month, holiday.day) }}
+                    {{ time }}
                 </p>
             </div>
         </section>
@@ -35,7 +36,6 @@ export default {
             time: "",
         };
     },
-    computed: {},
     methods: {
         refactor_time: function(time) {
             // Calculate the days
@@ -62,8 +62,14 @@ export default {
             // Running the format function
             var days_until = this.refactor_time(time);
             // Returns the formated time until
-            return days_until;
+            this.time = days_until;
         },
+        startTimer() {
+            this.time = setInterval(() => (this.time = this.time - 1), 1000);
+        },
+    },
+    mounted() {
+        this.startTimer();
     },
 };
 </script>
